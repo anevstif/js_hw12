@@ -1,0 +1,67 @@
+
+        body {
+            font-family: Montserrat;
+        }
+        .conteiner {
+            padding: 0;
+            margin: 0;
+            font-family: Montserrat;
+        }
+        .link {
+            text-decoration: none;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+
+        }
+        .logo img{
+            width: 100%;
+            height: auto;
+        }
+        nav {
+            
+            padding: 14px 95px;
+            box-sizing: border-box;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(0,0,0,.47);     
+            position: fixed; 
+            width: 100%;
+            z-index: 1;
+
+        }
+        .nav-list {
+            padding: 32px 28px;
+            margin-left: 128px;
+            margin-right: 137px;
+        }
+        .nav-link {
+            margin-right: 110px;
+            text-transform: uppercase;
+            color: white;
+            font-size: 15px;
+        }
+        .nav-link:last-child {
+            margin-right: 0px;
+        }
+        .button-group{
+            
+        }
+        .nav-icon {
+            margin-right: 47px;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+        }
+        .nav-icon:last-child {
+            margin-right: 0px;
+                }
+
+        .nav-icon img{
+            width: 100%;
+            height: auto;
+        }

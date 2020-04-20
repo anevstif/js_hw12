@@ -1,0 +1,67 @@
+    .banner {
+       
+        background-color: #2B2835;
+        font-family: Montserrat;
+
+    }
+    .wrapper {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1240px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .banner-picture {
+         position:absolute;
+         top: 0px;
+         left: -110px;
+    }
+    .info {
+        padding: 210px 0 180px;
+        width: 100%;
+        max-width: 510px;   
+    }
+    .subTitle, .title, .price{
+        color: #fff;
+    }
+    .title {
+        padding-top: 13px;
+    }
+    .title, .price{
+        font-size: 40px;
+       }
+    .subTitle {
+        font-size: 16px;
+    }
+    .action-box {
+        margin-top: 40px;
+        margin-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content:start;
+    }
+    button {
+        padding: 12px 58px;
+        margin-left: 34px;
+  
+        border:none;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+
+        font-size: 14px;
+       
+    }
+    .button_yellow{
+        color: #000;
+        background-color: #ffc700;
+    }
+    .extra-text {
+        padding-top: 10px;
+        font-size: 13px;
+        
+    }
+    .extra-text_yellow {
+        color: #ffc700;
+    }
