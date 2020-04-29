@@ -1,6 +1,8 @@
 
 .kind_beats{
-    margin-left: 90px;
+    /* margin-left: 90px; */
+    max-width: 1240px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,34 +17,12 @@
 .beat:last-child{
     margin-right: 0px;
 }
-.img1 {
-    width: 230px;
-    height: 480px;
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 102px;
-    z-index: -1;
-}
-.img2 {
-    width: 300px;
-    height: 425px;
-    display: inline-block;
-    margin-top: -20px;
-    margin-left: 55px;
-    z-index: -1;
-}
-.img3 {
-    width: 230px;
-    height: 425px;
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 124px;
-    z-index: -1;
-}
 
-.img1 img, .img2 img, .img3 img {
+.img_list img {
+    display: inline-block;
     width: 100%;
     height: auto;
+    z-index: -1;
 }
 .bg {
     background: #F8F8F9;
@@ -65,6 +45,7 @@
 
 }
 .price_small{
+    margin-right: 6%;
     font-size: 25px;
     color:#9D8220;
 }

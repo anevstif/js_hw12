@@ -28,6 +28,10 @@
     .title {
         padding-top: 13px;
     }
+    .price{
+        margin-right: 6%;
+
+    }
     .title, .price{
         font-size: 40px;
        }
@@ -51,6 +55,7 @@
         cursor: pointer;
 
         font-size: 14px;
+        text-transform: uppercase;
        
     }
     .button_yellow{

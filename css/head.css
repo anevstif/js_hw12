@@ -2,7 +2,7 @@
         body {
             font-family: Montserrat;
         }
-        .conteiner {
+        .header {
             padding: 0;
             margin: 0;
             font-family: Montserrat;
@@ -38,6 +38,9 @@
             padding: 32px 28px;
             margin-left: 128px;
             margin-right: 137px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;  
         }
         .nav-link {
             margin-right: 110px;
@@ -49,7 +52,9 @@
             margin-right: 0px;
         }
         .button-group{
-            
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;        
         }
         .nav-icon {
             margin-right: 47px;
