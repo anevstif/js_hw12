@@ -1,0 +1,51 @@
+
+.kind_beats{
+    /* margin-left: 90px; */
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.beat {
+    position: relative;
+    margin-right: 37px;
+    width: 390px;
+    height: 560px;   
+}
+.beat:last-child{
+    margin-right: 0px;
+}
+
+.img_list img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.bg {
+    background: #F8F8F9;
+ 
+}
+
+.beat_block{
+    position: absolute;
+    top: 330px;
+    margin-left: 50px;
+}
+.beat_name{
+    font-size: 50px;
+    margin-left: 5px;
+    
+}
+.about_beat{
+    font-size: 14px;
+    width: 267px;
+
+}
+.price_small{
+    margin-right: 6%;
+    font-size: 25px;
+    color:#9D8220;
+}
